@@ -5,7 +5,6 @@ use Symfony\Component\Serializer\Serializer;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
 use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
 
-// Включаємо файл, де міститься клас User
 require 'User.php';
 
 $encoders = [new JsonEncoder()];
